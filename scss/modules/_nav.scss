@@ -1,0 +1,152 @@
+.nav {
+  margin: 25px 0;
+  float: right;
+  font-size: 16px;
+  // @extend %clearfix;
+
+  & > li {
+    line-height: 20px;
+    display: block;
+    float: left;
+
+    & > a {
+      padding: 15px 30px;
+      display: block;
+      color: #333;
+      font-weight: 200;
+      text-transform: uppercase;
+      position: relative;
+      -webkit-transition: background-color 0.2s ease-out;
+      -moz-transition: background-color 0.2s ease-out;
+      -o-transition: background-color 0.2s ease-out;
+      -ms-transition: background-color 0.2s ease-out;
+      transition: background-color 0.2s ease-out;
+      text-shadow: 1px 1px 0 white;
+      &:hover {
+        background: #f1f1f1;
+      }
+      &:active {
+        top: 2px;
+        background: #e3e3e3;
+      }
+    }
+  }
+
+  @include max-screen(900px){
+    margin: 15px 0 0;
+    font-size: 12px;
+
+    & > li > a {
+      padding: 10px 15px;
+    }
+  }
+
+  @include max-screen(640px) {
+    float: none;
+    text-align: center;
+    margin-top: 30px;
+    & > li {
+      display: inline-block;
+      float: none;
+    }
+  }
+}
+
+.brand {
+  //background: transparent url(./img/ewh-logo.png) no-repeat center center;
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-size: 100px 100px;
+  float: left;
+  margin: 0 30px 0 0;
+
+  @include screen(640px, 900px) {
+    height: 70px;
+    width: 70px;
+    background-size: 70px 70px;
+  }
+
+  @include max-screen(640px) {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+.brand-tag {
+  color: #333;
+  display: block;
+  float: left;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 30px 0;
+  text-decoration: none;
+  font-weight: 200;
+  text-shadow: 1px 1px 0 white;
+
+  span {
+    color: #a8a8a8;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    font-weight: bold;
+  }
+
+  &:hover {
+    color: #333;
+  }
+
+  @include max-screen(900px) {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 18px 0;
+    span {
+      font-size: 11px;
+      line-height: 14px;
+    }
+  }
+
+  @include max-screen(640px) {
+    float: none;
+    margin: 30px auto 0;
+    text-align: center;
+  }
+}
+
+.brand, .brand-tag {
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition:  opacity 0.2s ease-out;
+  -o-transition:  opacity 0.2s ease-out;
+  -ms-transition:  opacity 0.2s ease-out;
+  transition:  opacity 0.2s ease-out;
+
+  &:hover {
+    opacity: .75;
+  }
+}
+
+// @include min-screen (641px) {
+//   .light {
+//     .brand {
+//       background-image: url(./img/ewh-logo-light.png);
+//       opacity: .9;
+//       &:hover {
+//         opacity: .75;
+//       }
+//     }
+//     .brand-tag {
+//       color: #ccc;
+//       span {
+//         color: #999;
+//       }
+//     }
+
+//     .nav > li > a {
+//       color: #ccc;
+//       &:hover {
+//         color: #333;
+//         opacity: .75;
+//       }
+//     }
+//   }
+// }

@@ -1,0 +1,19 @@
+body {
+    background: #111;
+    color: #ddd;
+}
+
+
+.heading {
+    background: #222;
+    color: #d8d8d8;
+    padding: 0 20px;
+
+    @extend %clearfix;
+
+    h1 {
+        float: left;
+        line-height: 50px;
+        margin: 25px 0;
+    }
+}

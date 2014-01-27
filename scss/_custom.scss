@@ -1,0 +1,88 @@
+// Top Menu
+.top-bar .name h1 a {
+  width: auto;
+}
+
+.slides {
+  @include last-child;
+}
+
+// Intro Section
+.slide-1 {
+  background-color: #6D665E;
+  color: #D8D8D8;
+  background-image: url(https://a16545fb495c8760fb33-4cec33efbe2744e99ba863e52edb2075.ssl.cf2.rackcdn.com/slide1.jpg);
+  background-size: 120% 120%;
+
+  .row {
+    padding: 10px 0 0;
+  }
+}
+
+.footer {
+  background: #222;
+  padding: 20px 0;
+  color: #ccc;
+  @include last-child;
+}
+
+
+// Small screens
+@media only screen {
+
+
+
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+  .footer {
+    p, ul li {
+      text-align: center;
+    }
+
+    ul {
+      margin: 10px 0 0;
+    }
+
+    li {
+      margin-top: 10px;
+    }
+
+    a {
+      color: #ddd;
+      &:hover {
+        color: #ccc;
+      }
+    }
+  }
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) {
+
+  .slide-1 {
+    .row {
+      padding: 20px 0 0;
+      background-image: url(https://a16545fb495c8760fb33-4cec33efbe2744e99ba863e52edb2075.ssl.cf2.rackcdn.com/jerry.png);
+      background-size: contain;
+      background-position: right;
+      background-repeat: no-repeat;
+    }
+  }
+
+} /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xlarge screens */
