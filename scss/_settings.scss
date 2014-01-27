@@ -35,7 +35,7 @@ $row-width: rem-calc(1160);
 // $total-columns: 12;
 
 // We use these to control various global styles
-// $body-bg: #fff;
+$body-bg: #222;
 // $body-font-color: #222;
 $body-font-family: 'Source Sans Pro', sans-serif;
 $body-font-weight: 200;
@@ -1012,7 +1012,7 @@ $body-font-weight: 200;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-$topbar-bg-color: #222;
+$topbar-bg-color: #111;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1087,18 +1087,18 @@ $topbar-title-font-size: rem-calc(18);
 // $header-font-weight: 300;
 // $header-font-style: normal;
 $header-font-color: #d8d8d8;
-// $header-line-height: 1.4;
+$header-line-height: 1;
 // $header-top-margin: .2rem;
-// $header-bottom-margin: .5rem;
+$header-bottom-margin: 1.1rem;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-// $h1-font-size: rem-calc(44);
-// $h2-font-size: rem-calc(37);
-// $h3-font-size: rem-calc(27);
-// $h4-font-size: rem-calc(23);
-// $h5-font-size: rem-calc(18);
-// $h6-font-size: 1rem;
+$h1-font-size: rem-calc(52);
+$h2-font-size: rem-calc(42);
+$h3-font-size: rem-calc(32);
+$h4-font-size: rem-calc(26);
+$h5-font-size: rem-calc(18);
+$h6-font-size: 1rem;
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;
@@ -1114,8 +1114,8 @@ $header-font-color: #d8d8d8;
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 $paragraph-font-weight: 200;
-// $paragraph-font-size: 1rem;
-// $paragraph-line-height: 1.6;
+$paragraph-font-size: 1.4rem;
+$paragraph-line-height: 1.5;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;
@@ -1152,7 +1152,7 @@ $paragraph-font-weight: 200;
 // $blockquote-font-color: scale-color($header-font-color, $lightness: 35%);
 // $blockquote-padding: rem-calc(9 20 0 19);
 // $blockquote-border: 1px solid #ddd;
-// $blockquote-cite-font-size: rem-calc(13);
+$blockquote-cite-font-size: rem-calc(15);
 // $blockquote-cite-font-color: scale-color($header-font-color, $lightness: 23%);
 // $blockquote-cite-link-color: $blockquote-cite-font-color;
 
