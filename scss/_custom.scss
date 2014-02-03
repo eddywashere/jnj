@@ -7,6 +7,40 @@
   display: inline-block;
 }
 
+.featured-image {
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.page {
+  background: white;
+  color: #333;
+
+  h1,h2,h3,h4,h5,h6, p {
+    color: #333;
+  }
+
+  h1,h2,h3 {
+    font-weight: 400;
+  }
+}
+
+.small-margin-bottom {
+  margin-bottom: 20px;
+}
+
+.medium-margin-bottom {
+  margin-bottom: 40px;
+}
+
+.large-margin-bottom {
+  margin-bottom: 50px;
+}
+
 .slides {
   color: #D8D8D8;
   background-color: #000;
@@ -27,34 +61,22 @@
 
   h1 {
     text-shadow: 0 1px 1px #333;
-
-    &.small-margin {
-      margin-bottom: 60px;
-    }
-
-    &.medium-margin {
-      margin-bottom: 100px;
-    }
-
-    &.large-margin {
-      margin-bottom: 150px;
-    }
-  }
-
-  .row {
-    padding: 40px 0;
-
-    &.medium-pad {
-      padding: 50px 0;
-    }
-
-    &.large-pad {
-      padding: 60px 0;
-    }
   }
 
   &.light {
     background-color: #fff;
+  }
+}
+
+.slides .row, .page .row {
+  padding: 40px 0;
+
+  &.medium-pad {
+    padding: 50px 0;
+  }
+
+  &.large-pad {
+    padding: 60px 0;
   }
 }
 
@@ -63,7 +85,7 @@
 // Intro Section
 .slide-0 {
   background-color: #6D665E;
-  background-image: url(https://a16545fb495c8760fb33-4cec33efbe2744e99ba863e52edb2075.ssl.cf2.rackcdn.com/slide1.jpg);
+  background-image: url(../img/home-banner.jpg);
 
   p {
     padding: 0;
@@ -105,13 +127,19 @@
   padding: 20px 0;
   color: #ccc;
   @include last-child;
+
+  p {
+    font-size: rem-calc(18);
+  }
+
+  ul li {
+    font-size: rem-calc(18);
+  }
 }
 
 
 // Small screens
 @media only screen {
-
-
 
 } /* Define mobile styles */
 
@@ -138,61 +166,95 @@
     }
   }
 
-  .slides h1 {
-    &.small-margin {
-      margin-bottom: 20px;
-    }
-
-    &.medium-margin {
-      margin-bottom: 40px;
-    }
-
-    &.large-margin {
-      margin-bottom: 50px;
-    }
-  }
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
-@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+
+} /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  .slides {
-    .row {
-      padding: 60px 0;
+  .featured-image, .featured-text {
+    margin-left: -4rem;
+    margin-right: -4rem;
+  }
 
-      &.medium-pad {
-        padding: 90px 0;
-      }
+  .small-margin-bottom {
+    margin-bottom: 50px;
+  }
 
-      &.large-pad {
-        padding: 120px 0;
-      }
+  .medium-margin-bottom {
+    margin-bottom: 90px;
+  }
+
+  .large-margin-bottom {
+    margin-bottom: 110px;
+  }
+
+  .slides .row, .page .row {
+    padding: 60px 0;
+
+    &.small-pad {
+      padding: 90px 0;
+    }
+
+    &.medium-pad {
+      padding: 120px 0;
+    }
+
+    &.large-pad {
+      padding: 200px 0;
     }
   }
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
-// Large screens
+// Large screens Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nostrum, et, eveniet ipsam nam non unde placeat aut labore dignissimos officia officiis sapiente! Cupiditate, iusto, quas odit quos neque tempore.
 @media only screen and (min-width: 64.063em) {
+
+  .featured-image, .featured-text {
+    margin-left: -6rem;
+    margin-right: -6rem;
+  }
+
+  .small-margin-bottom {
+    margin-bottom: 60px;
+  }
+
+  .medium-margin-bottom {
+    margin-bottom: 100px;
+  }
+
+  .large-margin-bottom {
+    margin-bottom: 150px;
+  }
 
   .slides {
     background-size: cover;
-    .row {
-      padding: 90px 0;
 
-      &.medium-pad {
-        padding: 120px 0;
-      }
+    p {
+      padding: 15px;
+    }
+  }
 
-      &.large-pad {
-        padding: 200px 0;
-      }
+  .slides .row, .page .row {
+    padding: 70px 0;
+
+    &.small-pad {
+      padding: 120px 0;
+    }
+
+    &.medium-pad {
+      padding: 220px 0;
+    }
+
+    &.large-pad {
+      padding: 350px 0;
     }
   }
 
   .slide-0 {
     .row {
-      background-image: url(https://a16545fb495c8760fb33-4cec33efbe2744e99ba863e52edb2075.ssl.cf2.rackcdn.com/jerry.png);
+      background-image: url(../img/jerry-bw.png);
       background-size: contain;
       background-position: right;
       background-repeat: no-repeat;

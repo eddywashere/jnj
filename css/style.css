@@ -28,7 +28,7 @@ meta.foundation-mq-xxlarge {
   width: 120.063em;
 }
 
-/* line 323, ../bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 321, ../bower_components/foundation/scss/foundation/components/_global.scss */
 *,
 *:before,
 *:after {
@@ -37,7 +37,7 @@ meta.foundation-mq-xxlarge {
   box-sizing: border-box;
 }
 
-/* line 328, ../bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 327, ../bower_components/foundation/scss/foundation/components/_global.scss */
 html,
 body {
   font-size: 100%;
@@ -45,7 +45,7 @@ body {
 
 /* line 331, ../bower_components/foundation/scss/foundation/components/_global.scss */
 body {
-  background: #222222;
+  background: #111111;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -62,7 +62,7 @@ a:hover {
   cursor: pointer;
 }
 
-/* line 349, ../bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
 img,
 object,
 embed {
@@ -70,7 +70,7 @@ embed {
   height: auto;
 }
 
-/* line 352, ../bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 351, ../bower_components/foundation/scss/foundation/components/_global.scss */
 object,
 embed {
   height: 100%;
@@ -81,7 +81,7 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 359, ../bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 357, ../bower_components/foundation/scss/foundation/components/_global.scss */
 #map_canvas img,
 #map_canvas embed,
 #map_canvas object,
@@ -202,7 +202,7 @@ select {
 .row:after {
   clear: both;
 }
-/* line 203, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+/* line 202, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .row.collapse > .column,
 .row.collapse > .columns {
   position: relative;
@@ -251,7 +251,7 @@ select {
   clear: both;
 }
 
-/* line 214, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+/* line 213, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .column,
 .columns {
   position: relative;
@@ -262,7 +262,7 @@ select {
 }
 
 @media only screen {
-  /* line 148, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 147, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-centered,
   .columns.small-centered {
     position: relative;
@@ -271,7 +271,7 @@ select {
     float: none;
   }
 
-  /* line 151, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 150, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-uncentered,
   .columns.small-uncentered {
     margin-left: 0;
@@ -279,7 +279,7 @@ select {
     float: left;
   }
 
-  /* line 158, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 157, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-uncentered.opposite,
   .columns.small-uncentered.opposite {
     float: right;
@@ -439,7 +439,7 @@ select {
     left: auto;
   }
 
-  /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 171, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns {
     position: relative;
@@ -596,7 +596,7 @@ select {
     margin-left: 83.33333% !important;
   }
 
-  /* line 187, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.small-reset-order,
   .columns.small-reset-order {
     margin-left: 0;
@@ -607,7 +607,7 @@ select {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 148, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 147, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-centered,
   .columns.medium-centered {
     position: relative;
@@ -616,7 +616,7 @@ select {
     float: none;
   }
 
-  /* line 151, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 150, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-uncentered,
   .columns.medium-uncentered {
     margin-left: 0;
@@ -624,7 +624,7 @@ select {
     float: left;
   }
 
-  /* line 158, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 157, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-uncentered.opposite,
   .columns.medium-uncentered.opposite {
     float: right;
@@ -784,7 +784,7 @@ select {
     left: auto;
   }
 
-  /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 171, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns {
     position: relative;
@@ -941,7 +941,7 @@ select {
     margin-left: 83.33333% !important;
   }
 
-  /* line 187, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.medium-reset-order,
   .columns.medium-reset-order {
     margin-left: 0;
@@ -1106,7 +1106,7 @@ select {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 148, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 147, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-centered,
   .columns.large-centered {
     position: relative;
@@ -1115,7 +1115,7 @@ select {
     float: none;
   }
 
-  /* line 151, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 150, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-uncentered,
   .columns.large-uncentered {
     margin-left: 0;
@@ -1123,7 +1123,7 @@ select {
     float: left;
   }
 
-  /* line 158, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 157, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-uncentered.opposite,
   .columns.large-uncentered.opposite {
     float: right;
@@ -1283,7 +1283,7 @@ select {
     left: auto;
   }
 
-  /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 171, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column,
   .columns {
     position: relative;
@@ -1440,7 +1440,7 @@ select {
     margin-left: 83.33333% !important;
   }
 
-  /* line 187, ../bower_components/foundation/scss/foundation/components/_grid.scss */
+  /* line 186, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .column.large-reset-order,
   .columns.large-reset-order {
     margin-left: 0;
@@ -1677,7 +1677,7 @@ select {
   color: #333333;
   opacity: 0.3;
 }
-/* line 87, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
+/* line 86, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box .close:hover, .alert-box .close:focus {
   opacity: 0.5;
 }
@@ -2314,7 +2314,7 @@ select {
 .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
   text-decoration: underline;
 }
-/* line 65, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 64, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > * a,
 .breadcrumbs > * span {
   text-transform: uppercase;
@@ -2330,7 +2330,7 @@ select {
   cursor: default;
   color: #333333;
 }
-/* line 80, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 79, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
   text-decoration: none;
 }
@@ -2342,7 +2342,7 @@ select {
 .breadcrumbs > *.unavailable a {
   color: #999999;
 }
-/* line 91, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 88, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.unavailable:hover, .breadcrumbs > *.unavailable:hover a, .breadcrumbs > *.unavailable:focus,
 .breadcrumbs > *.unavailable a:focus {
   text-decoration: none;
@@ -2394,11 +2394,11 @@ button, .button {
   border: none;
   font-weight: normal !important;
 }
-/* line 144, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 143, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
   background-color: #007095;
 }
-/* line 155, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 154, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
   color: white;
 }
@@ -2408,11 +2408,11 @@ button.secondary, .button.secondary {
   border-color: #b9b9b9;
   color: #333333;
 }
-/* line 144, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 143, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
   background-color: #b9b9b9;
 }
-/* line 150, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 149, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
   color: #333333;
 }
@@ -2422,11 +2422,11 @@ button.success, .button.success {
   border-color: #368a55;
   color: white;
 }
-/* line 144, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 143, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
   background-color: #368a55;
 }
-/* line 155, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 154, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
   color: white;
 }
@@ -2436,11 +2436,11 @@ button.alert, .button.alert {
   border-color: #cf2a0e;
   color: white;
 }
-/* line 144, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 143, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
   background-color: #cf2a0e;
 }
-/* line 155, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 154, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
   color: white;
 }
@@ -2507,15 +2507,15 @@ button.disabled, button[disabled], .button.disabled, .button[disabled] {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 144, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 143, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
   background-color: #007095;
 }
-/* line 155, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 154, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
   color: white;
 }
-/* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 167, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
   background-color: #008cba;
 }
@@ -2529,15 +2529,15 @@ button.disabled.secondary, button[disabled].secondary, .button.disabled.secondar
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 144, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 143, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
   background-color: #b9b9b9;
 }
-/* line 150, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 149, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
   color: #333333;
 }
-/* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 167, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
   background-color: #e7e7e7;
 }
@@ -2551,15 +2551,15 @@ button.disabled.success, button[disabled].success, .button.disabled.success, .bu
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 144, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 143, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
   background-color: #368a55;
 }
-/* line 155, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 154, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
   color: white;
 }
-/* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 167, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
   background-color: #43ac6a;
 }
@@ -2573,15 +2573,15 @@ button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[d
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 144, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 143, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
   background-color: #cf2a0e;
 }
-/* line 155, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 154, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
   color: white;
 }
-/* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 167, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
   background-color: #f04124;
 }
@@ -2634,7 +2634,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 .button-group.radius > *:last-child button, .button-group.radius > *:last-child .button {
   border-right: 0;
 }
-/* line 69, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+/* line 66, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
 .button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button {
   -moz-border-radius-bottomleft: 3px;
   -moz-border-radius-topleft: 3px;
@@ -2643,7 +2643,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px;
 }
-/* line 73, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+/* line 70, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
 .button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button {
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
@@ -2661,7 +2661,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 .button-group.round > *:last-child button, .button-group.round > *:last-child .button {
   border-right: 0;
 }
-/* line 69, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+/* line 66, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
 .button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button {
   -moz-border-radius-bottomleft: 1000px;
   -moz-border-radius-topleft: 1000px;
@@ -2670,7 +2670,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   border-bottom-left-radius: 1000px;
   border-top-left-radius: 1000px;
 }
-/* line 73, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+/* line 70, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
 .button-group.round > *:last-child, .button-group.round > *:last-child > a, .button-group.round > *:last-child > button, .button-group.round > *:last-child > .button {
   -moz-border-radius-topright: 1000px;
   -moz-border-radius-bottomright: 1000px;
@@ -2909,7 +2909,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   color: #cccccc;
   display: none;
 }
-/* line 110, ../bower_components/foundation/scss/foundation/components/_clearing.scss */
+/* line 109, ../bower_components/foundation/scss/foundation/components/_clearing.scss */
 .clearing-close:hover, .clearing-close:focus {
   color: #ccc;
 }
@@ -2933,7 +2933,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 128, ../bower_components/foundation/scss/foundation/components/_clearing.scss */
+  /* line 127, ../bower_components/foundation/scss/foundation/components/_clearing.scss */
   .clearing-main-prev,
   .clearing-main-next {
     position: absolute;
@@ -2978,7 +2978,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
     border-left-color: #cccccc;
   }
 
-  /* line 160, ../bower_components/foundation/scss/foundation/components/_clearing.scss */
+  /* line 159, ../bower_components/foundation/scss/foundation/components/_clearing.scss */
   .clearing-main-prev.disabled,
   .clearing-main-next.disabled {
     opacity: 0.3;
@@ -3130,7 +3130,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   line-height: 1.125rem;
   margin: 0;
 }
-/* line 122, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
+/* line 121, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
 .f-dropdown li:hover, .f-dropdown li:focus {
   background: #eeeeee;
 }
@@ -3271,7 +3271,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 .flex-video.vimeo {
   padding-top: 0;
 }
-/* line 34, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
+/* line 31, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
 .flex-video iframe,
 .flex-video object,
 .flex-video embed,
@@ -3294,7 +3294,7 @@ form {
 form .row .row {
   margin: 0 -0.5rem;
 }
-/* line 79, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 78, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .row .column,
 form .row .row .columns {
   padding: 0 0.5rem;
@@ -3303,7 +3303,7 @@ form .row .row .columns {
 form .row .row.collapse {
   margin: 0;
 }
-/* line 85, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 84, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .row.collapse .column,
 form .row .row.collapse .columns {
   padding: 0;
@@ -3315,7 +3315,7 @@ form .row .row.collapse input {
   -webkit-border-bottom-right-radius: 0;
   -webkit-border-top-right-radius: 0;
 }
-/* line 98, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 95, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row input.column,
 form .row input.columns,
 form .row textarea.column,
@@ -3391,9 +3391,8 @@ select::-ms-expand {
     background: #f3f3f3;
   }
 }
-
 /* Attach elements to the beginning or end of an input */
-/* line 349, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 348, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .prefix,
 .postfix {
   display: block;
@@ -3560,7 +3559,7 @@ span.postfix.radius, label.postfix.radius {
 }
 
 /* We use this to get basic styling on all basic form elements */
-/* line 402, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 389, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -3661,7 +3660,7 @@ select {
 }
 
 /* Adjust margin for form elements below */
-/* line 421, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 418, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="file"],
 input[type="checkbox"],
 input[type="radio"],
@@ -3669,7 +3668,7 @@ select {
   margin: 0 0 1rem 0;
 }
 
-/* line 426, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 425, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   display: inline-block;
@@ -3732,18 +3731,18 @@ span.error, small.error {
   color: white;
 }
 
-/* line 458, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 456, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error input,
 .error textarea,
 .error select {
   margin-bottom: 0;
 }
-/* line 463, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 462, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error label,
 .error label.error {
   color: #f04124;
 }
-/* line 468, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 467, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error > small,
 .error small.error {
   display: block;
@@ -3772,7 +3771,7 @@ span.error, small.error {
   display: block;
 }
 
-/* line 491, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 490, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input.error,
 textarea.error {
   margin-bottom: 0;
@@ -3880,7 +3879,7 @@ label.error {
 }
 
 /* Typography */
-/* line 112, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
+/* line 107, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
 .joyride-tip-guide h1,
 .joyride-tip-guide h2,
 .joyride-tip-guide h3,
@@ -3929,7 +3928,7 @@ label.error {
   font-weight: normal;
   line-height: .5 !important;
 }
-/* line 150, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
+/* line 149, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
 .joyride-close-tip:hover, .joyride-close-tip:focus {
   color: #eee !important;
 }
@@ -4005,7 +4004,7 @@ label.error {
     right: auto;
   }
 }
-/* line 52, ../bower_components/foundation/scss/foundation/components/_keystrokes.scss */
+/* line 51, ../bower_components/foundation/scss/foundation/components/_keystrokes.scss */
 .keystroke,
 kbd {
   background-color: #ededed;
@@ -4094,7 +4093,6 @@ kbd {
     -webkit-transform: rotate(360deg);
   }
 }
-
 @-moz-keyframes rotate {
   /* line 49, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
   from {
@@ -4106,7 +4104,6 @@ kbd {
     -moz-transform: rotate(360deg);
   }
 }
-
 @-o-keyframes rotate {
   /* line 53, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
   from {
@@ -4118,7 +4115,6 @@ kbd {
     -o-transform: rotate(360deg);
   }
 }
-
 @keyframes rotate {
   /* line 58, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
   from {
@@ -4130,7 +4126,6 @@ kbd {
     transform: rotate(360deg);
   }
 }
-
 /* Orbit Graceful Loading */
 /* line 63, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .slideshow-wrapper {
@@ -4141,7 +4136,7 @@ kbd {
   list-style-type: none;
   margin: 0;
 }
-/* line 73, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
+/* line 72, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .slideshow-wrapper ul li,
 .slideshow-wrapper ul li .orbit-caption {
   display: none;
@@ -4242,7 +4237,7 @@ kbd {
   left: 10px;
   font-size: 12px;
   color: white;
-  background: rgba(0, 0, 0, 0);
+  background: transparent;
   z-index: 10;
 }
 /* line 178, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
@@ -4299,7 +4294,7 @@ kbd {
 .orbit-container:hover .orbit-timer > span {
   display: block;
 }
-/* line 239, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
+/* line 238, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .orbit-container .orbit-prev,
 .orbit-container .orbit-next {
   position: absolute;
@@ -4395,7 +4390,7 @@ kbd {
   margin-right: 0;
 }
 
-/* line 320, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
+/* line 319, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .touch .orbit-container .orbit-prev,
 .touch .orbit-container .orbit-next {
   display: none;
@@ -4406,7 +4401,7 @@ kbd {
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 332, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
+  /* line 331, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
   .touch .orbit-container .orbit-prev,
   .touch .orbit-container .orbit-next {
     display: inherit;
@@ -4426,7 +4421,7 @@ kbd {
     position: relative;
     margin-left: 0% !important;
   }
-  /* line 350, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
+  /* line 347, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
   .orbit-stack-on-small .orbit-timer,
   .orbit-stack-on-small .orbit-next,
   .orbit-stack-on-small .orbit-prev,
@@ -4455,7 +4450,7 @@ ul.pagination li a {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 109, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
+/* line 108, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li:hover a,
 ul.pagination li a:focus {
   background: #e6e6e6;
@@ -4465,7 +4460,7 @@ ul.pagination li.unavailable a {
   cursor: default;
   color: #999999;
 }
-/* line 52, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
+/* line 51, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
   background: transparent;
 }
@@ -4476,7 +4471,7 @@ ul.pagination li.current a {
   font-weight: bold;
   cursor: default;
 }
-/* line 67, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
+/* line 66, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a:hover, ul.pagination li.current a:focus {
   background: #008cba;
 }
@@ -4712,7 +4707,7 @@ ul.pagination li {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   top: 6.25rem;
 }
-/* line 71, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
+/* line 70, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
 .reveal-modal .column,
 .reveal-modal .columns {
   min-width: 0;
@@ -4959,7 +4954,7 @@ ul.pagination li {
 .sub-nav dt {
   text-transform: uppercase;
 }
-/* line 69, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
+/* line 67, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
 .sub-nav dt,
 .sub-nav dd,
 .sub-nav li {
@@ -5041,7 +5036,7 @@ div.switch input {
   height: 100%;
   -moz-appearance: none;
 }
-/* line 100, ../bower_components/foundation/scss/foundation/components/_switch.scss */
+/* line 99, ../bower_components/foundation/scss/foundation/components/_switch.scss */
 div.switch input:hover, div.switch input:focus {
   cursor: pointer;
 }
@@ -5072,24 +5067,24 @@ div.switch input {
   left: 0;
   display: block !important;
 }
-/* line 129, ../bower_components/foundation/scss/foundation/components/_switch.scss */
+/* line 128, ../bower_components/foundation/scss/foundation/components/_switch.scss */
 div.switch input:first-of-type + label,
 div.switch input:first-of-type + span + label {
   left: -50%;
 }
-/* line 131, ../bower_components/foundation/scss/foundation/components/_switch.scss */
+/* line 130, ../bower_components/foundation/scss/foundation/components/_switch.scss */
 div.switch input:first-of-type:checked + label,
 div.switch input:first-of-type:checked + span + label {
   left: 0%;
 }
-/* line 135, ../bower_components/foundation/scss/foundation/components/_switch.scss */
+/* line 134, ../bower_components/foundation/scss/foundation/components/_switch.scss */
 div.switch input:last-of-type + label,
 div.switch input:last-of-type + span + label {
   right: -50%;
   left: auto;
   text-align: right;
 }
-/* line 137, ../bower_components/foundation/scss/foundation/components/_switch.scss */
+/* line 136, ../bower_components/foundation/scss/foundation/components/_switch.scss */
 div.switch input:last-of-type:checked + label,
 div.switch input:last-of-type:checked + span + label {
   right: 0%;
@@ -5127,7 +5122,7 @@ div.switch span:last-child {
   background: white;
   background: -moz-linear-gradient(top, white 0%, #f2f2f2 100%);
   background: -webkit-linear-gradient(top, white 0%, #f2f2f2 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
+  background: linear-gradient(to bottom, white 0%, #f2f2f2 100%);
   -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #f3faf6, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
   box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #f3faf6, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
 }
@@ -5136,7 +5131,7 @@ div.switch:hover span:last-child, div.switch:focus span:last-child {
   background: white;
   background: -moz-linear-gradient(top, white 0%, #e6e6e6 100%);
   background: -webkit-linear-gradient(top, white 0%, #e6e6e6 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
+  background: linear-gradient(to bottom, white 0%, #e6e6e6 100%);
 }
 /* line 244, ../bower_components/foundation/scss/foundation/components/_switch.scss */
 div.switch:active {
@@ -5238,19 +5233,18 @@ div.switch.round label {
     position: relative;
   }
 }
-
 /* line 89, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table {
   background: white;
   margin-bottom: 1.25rem;
   border: solid 1px #dddddd;
 }
-/* line 51, ../bower_components/foundation/scss/foundation/components/_tables.scss */
+/* line 50, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table thead,
 table tfoot {
   background: whitesmoke;
 }
-/* line 56, ../bower_components/foundation/scss/foundation/components/_tables.scss */
+/* line 55, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table thead tr th,
 table thead tr td,
 table tfoot tr th,
@@ -5261,18 +5255,18 @@ table tfoot tr td {
   color: #222222;
   text-align: left;
 }
-/* line 68, ../bower_components/foundation/scss/foundation/components/_tables.scss */
+/* line 67, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table tr th,
 table tr td {
   padding: 0.5625rem 0.625rem;
   font-size: 0.875rem;
   color: #222222;
 }
-/* line 76, ../bower_components/foundation/scss/foundation/components/_tables.scss */
+/* line 74, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background: #f9f9f9;
 }
-/* line 83, ../bower_components/foundation/scss/foundation/components/_tables.scss */
+/* line 79, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table thead tr th,
 table tfoot tr th,
 table tbody tr td,
@@ -5414,7 +5408,7 @@ table tfoot tr td {
   -moz-transition: all 200ms ease-out;
   transition: all 200ms ease-out;
 }
-/* line 50, ../bower_components/foundation/scss/foundation/components/_thumbs.scss */
+/* line 49, ../bower_components/foundation/scss/foundation/components/_thumbs.scss */
 .th:hover, .th:focus {
   -webkit-box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
   box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
@@ -5433,12 +5427,12 @@ table tfoot tr td {
   font-weight: bold;
   color: #333333;
 }
-/* line 39, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
+/* line 38, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
   border-bottom: dotted 1px #003f54;
   color: #008cba;
 }
-/* line 45, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
+/* line 44, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip.tip-left, .has-tip.tip-right {
   float: none !important;
 }
@@ -5497,7 +5491,7 @@ table tfoot tr td {
     top: auto;
     bottom: -10px;
   }
-  /* line 100, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
+  /* line 99, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .tooltip.tip-left, .tooltip.tip-right {
     float: none !important;
   }
@@ -5580,7 +5574,7 @@ meta.foundation-mq-topbar {
 .top-bar .row {
   max-width: none;
 }
-/* line 136, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
+/* line 135, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar form,
 .top-bar input {
   margin-bottom: 0;
@@ -5707,7 +5701,7 @@ meta.foundation-mq-topbar {
   font-size: 16px;
   margin: 0;
 }
-/* line 276, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
+/* line 275, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
   border-top: solid 1px #090909;
@@ -5890,7 +5884,7 @@ meta.foundation-mq-topbar {
   .top-bar .name h1 a {
     width: auto;
   }
-  /* line 427, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
+  /* line 426, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar input,
   .top-bar .button {
     font-size: 0.875rem;
@@ -6007,7 +6001,7 @@ meta.foundation-mq-topbar {
     left: 100%;
     top: 0;
   }
-  /* line 543, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
+  /* line 542, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
@@ -6057,7 +6051,7 @@ meta.foundation-mq-topbar {
   }
 }
 /* Typography resets */
-/* line 145, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 127, ../bower_components/foundation/scss/foundation/components/_type.scss */
 div,
 dl,
 dt,
@@ -6088,7 +6082,7 @@ a {
   text-decoration: none;
   line-height: inherit;
 }
-/* line 157, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 156, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
   color: #0078a0;
 }
@@ -6104,7 +6098,7 @@ p {
   font-weight: 200;
   font-size: 1.4rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;
+  margin-bottom: 2.25rem;
   text-rendering: optimizeLegibility;
 }
 /* line 171, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -6187,14 +6181,14 @@ hr {
 }
 
 /* Helpful Typography Defaults */
-/* line 217, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 216, ../bower_components/foundation/scss/foundation/components/_type.scss */
 em,
 i {
   font-style: italic;
   line-height: inherit;
 }
 
-/* line 223, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 222, ../bower_components/foundation/scss/foundation/components/_type.scss */
 strong,
 b {
   font-weight: bold;
@@ -6215,13 +6209,13 @@ code {
 }
 
 /* Lists */
-/* line 242, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 240, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul,
 ol,
 dl {
   font-size: 1.4rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;
+  margin-bottom: 2.25rem;
   list-style-position: outside;
   font-family: inherit;
 }
@@ -6234,7 +6228,7 @@ ul {
 ul.no-bullet {
   margin-left: 0;
 }
-/* line 256, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 255, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet li ul,
 ul.no-bullet li ol {
   margin-left: 1.25rem;
@@ -6243,7 +6237,7 @@ ul.no-bullet li ol {
 }
 
 /* Unordered Lists */
-/* line 269, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 268, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul li ul,
 ul li ol {
   margin-left: 1.25rem;
@@ -6280,7 +6274,7 @@ ul.no-bullet {
 ol {
   margin-left: 1.4rem;
 }
-/* line 292, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 291, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ol li ul,
 ol li ol {
   margin-left: 1.25rem;
@@ -6299,7 +6293,7 @@ dl dd {
 }
 
 /* Abbreviations */
-/* line 310, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 309, ../bower_components/foundation/scss/foundation/components/_type.scss */
 abbr,
 acronym {
   text-transform: uppercase;
@@ -6317,7 +6311,7 @@ abbr {
 /* Blockquotes */
 /* line 322, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote {
-  margin: 0 0 1.25rem;
+  margin: 0 0 2.25rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
   border-left: 1px solid #dddddd;
 }
@@ -6331,13 +6325,13 @@ blockquote cite {
 blockquote cite:before {
   content: "\2014 \0020";
 }
-/* line 336, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 335, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
   color: #e1e1e1;
 }
 
-/* line 342, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 341, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.5;
@@ -6423,7 +6417,7 @@ blockquote p {
     text-shadow: none !important;
   }
 
-  /* line 403, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 402, ../bower_components/foundation/scss/foundation/components/_type.scss */
   a,
   a:visited {
     text-decoration: underline;
@@ -6439,14 +6433,14 @@ blockquote p {
     content: " (" attr(title) ")";
   }
 
-  /* line 411, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 409, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 414, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 413, ../bower_components/foundation/scss/foundation/components/_type.scss */
   pre,
   blockquote {
     border: 1px solid #999;
@@ -6459,7 +6453,7 @@ blockquote p {
     /* h5bp.com/t */
   }
 
-  /* line 422, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 421, ../bower_components/foundation/scss/foundation/components/_type.scss */
   tr,
   img {
     page-break-inside: avoid;
@@ -6472,9 +6466,8 @@ blockquote p {
 
   @page {
     margin: 0.5cm;
-}
-
-  /* line 430, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  }
+  /* line 428, ../bower_components/foundation/scss/foundation/components/_type.scss */
   p,
   h2,
   h3 {
@@ -6482,7 +6475,7 @@ blockquote p {
     widows: 3;
   }
 
-  /* line 436, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 435, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h2,
   h3 {
     page-break-after: avoid;
@@ -6729,7 +6722,7 @@ ul.off-canvas-list li a {
   left: 0;
   right: 0;
   z-index: 1002;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 246, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
@@ -6760,7 +6753,7 @@ ul.off-canvas-list li a {
   left: 0;
   right: 0;
   z-index: 1002;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 246, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
@@ -6820,7 +6813,7 @@ ul.off-canvas-list li a {
 }
 
 /* Foundation Visibility HTML Classes */
-/* line 29, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 15, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 .show-for-small,
 .show-for-small-only,
 .show-for-medium-down,
@@ -6839,7 +6832,7 @@ ul.off-canvas-list li a {
   display: inherit !important;
 }
 
-/* line 45, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 31, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 .hide-for-small,
 .hide-for-small-only,
 .hide-for-medium-down,
@@ -6859,27 +6852,27 @@ ul.off-canvas-list li a {
 }
 
 /* Specific visibility for tables */
-/* line 63, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 49, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 table.show-for-small, table.show-for-small-only, table.show-for-medium-down, table.show-for-large-down, table.hide-for-medium, table.hide-for-medium-up, table.hide-for-medium-only, table.hide-for-large, table.hide-for-large-up, table.hide-for-large-only, table.hide-for-xlarge, table.hide-for-xlarge-up, table.hide-for-xlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge-only {
   display: table;
 }
 
-/* line 80, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 66, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 thead.show-for-small, thead.show-for-small-only, thead.show-for-medium-down, thead.show-for-large-down, thead.hide-for-medium, thead.hide-for-medium-up, thead.hide-for-medium-only, thead.hide-for-large, thead.hide-for-large-up, thead.hide-for-large-only, thead.hide-for-xlarge, thead.hide-for-xlarge-up, thead.hide-for-xlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge-only {
   display: table-header-group !important;
 }
 
-/* line 97, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 83, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 tbody.show-for-small, tbody.show-for-small-only, tbody.show-for-medium-down, tbody.show-for-large-down, tbody.hide-for-medium, tbody.hide-for-medium-up, tbody.hide-for-medium-only, tbody.hide-for-large, tbody.hide-for-large-up, tbody.hide-for-large-only, tbody.hide-for-xlarge, tbody.hide-for-xlarge-up, tbody.hide-for-xlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge-only {
   display: table-row-group !important;
 }
 
-/* line 114, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 100, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 tr.show-for-small, tr.show-for-small-only, tr.show-for-medium-down, tr.show-for-large-down, tr.hide-for-medium, tr.hide-for-medium-up, tr.hide-for-medium-only, tr.hide-for-large, tr.hide-for-large-up, tr.hide-for-large-only, tr.hide-for-xlarge, tr.hide-for-xlarge-up, tr.hide-for-xlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge-only {
   display: table-row !important;
 }
 
-/* line 128, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 118, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 td.show-for-small, td.show-for-small-only, td.show-for-medium-down
 td.show-for-large-down, td.hide-for-medium, td.hide-for-medium-up, td.hide-for-large, td.hide-for-large-up, td.hide-for-xlarge
 td.hide-for-xlarge-up, td.hide-for-xxlarge-up,
@@ -6899,7 +6892,7 @@ th.hide-for-xxlarge-up {
 
 /* Medium Displays: 641px and up */
 @media only screen and (min-width: 40.063em) {
-  /* line 146, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 133, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small,
   .hide-for-small-only,
   .show-for-medium,
@@ -6917,7 +6910,7 @@ th.hide-for-xxlarge-up {
     display: inherit !important;
   }
 
-  /* line 162, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 148, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .show-for-small,
   .show-for-small-only,
   .hide-for-medium,
@@ -6937,27 +6930,27 @@ th.hide-for-xxlarge-up {
   }
 
   /* Specific visibility for tables */
-  /* line 179, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 166, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   table.hide-for-small, table.hide-for-small-only, table.show-for-medium, table.show-for-medium-down, table.show-for-medium-up, table.show-for-medium-only, table.hide-for-large, table.hide-for-large-up, table.hide-for-large-only, table.hide-for-xlarge, table.hide-for-xlarge-up, table.hide-for-xlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge-only {
     display: table;
   }
 
-  /* line 195, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 182, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   thead.hide-for-small, thead.hide-for-small-only, thead.show-for-medium, thead.show-for-medium-down, thead.show-for-medium-up, thead.show-for-medium-only, thead.hide-for-large, thead.hide-for-large-up, thead.hide-for-large-only, thead.hide-for-xlarge, thead.hide-for-xlarge-up, thead.hide-for-xlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge-only {
     display: table-header-group !important;
   }
 
-  /* line 211, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 198, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tbody.hide-for-small, tbody.hide-for-small-only, tbody.show-for-medium, tbody.show-for-medium-down, tbody.show-for-medium-up, tbody.show-for-medium-only, tbody.hide-for-large, tbody.hide-for-large-up, tbody.hide-for-large-only, tbody.hide-for-xlarge, tbody.hide-for-xlarge-up, tbody.hide-for-xlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge-only {
     display: table-row-group !important;
   }
 
-  /* line 227, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 214, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tr.hide-for-small, tr.hide-for-small-only, tr.show-for-medium, tr.show-for-medium-down, tr.show-for-medium-up, tr.show-for-medium-only, tr.hide-for-large, tr.hide-for-large-up, tr.hide-for-large-only, tr.hide-for-xlarge, tr.hide-for-xlarge-up, tr.hide-for-xlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge-only {
     display: table-row !important;
   }
 
-  /* line 244, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 231, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   td.hide-for-small, td.hide-for-small-only, td.show-for-medium, td.show-for-medium-down, td.show-for-medium-up, td.show-for-medium-only, td.hide-for-large, td.hide-for-large-up, td.hide-for-large-only, td.hide-for-xlarge, td.hide-for-xlarge-up, td.hide-for-xlarge-only, td.hide-for-xxlarge-up, td.hide-for-xxlarge-only,
   th.hide-for-small,
   th.hide-for-small-only,
@@ -6978,7 +6971,7 @@ th.hide-for-xxlarge-up {
 }
 /* Large Displays: 1024px and up */
 @media only screen and (min-width: 64.063em) {
-  /* line 263, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 250, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small,
   .hide-for-small-only,
   .hide-for-medium,
@@ -6996,7 +6989,7 @@ th.hide-for-xxlarge-up {
     display: inherit !important;
   }
 
-  /* line 276, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 265, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .show-for-small-only,
   .show-for-medium,
   .show-for-medium-down,
@@ -7013,27 +7006,27 @@ th.hide-for-xxlarge-up {
   }
 
   /* Specific visibility for tables */
-  /* line 293, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 280, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   table.hide-for-small, table.hide-for-small-only, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-medium-only, table.show-for-medium-up, table.show-for-large, table.show-for-large-up, table.show-for-large-only, table.hide-for-xlarge, table.hide-for-xlarge-up, table.hide-for-xlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge-only {
     display: table;
   }
 
-  /* line 309, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 296, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   thead.hide-for-small, thead.hide-for-small-only, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.show-for-large, thead.show-for-large-up, thead.show-for-large-only, thead.hide-for-xlarge, thead.hide-for-xlarge-up, thead.hide-for-xlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge-only {
     display: table-header-group !important;
   }
 
-  /* line 325, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 312, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tbody.hide-for-small, tbody.hide-for-small-only, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.show-for-large, tbody.show-for-large-up, tbody.show-for-large-only, tbody.hide-for-xlarge, tbody.hide-for-xlarge-up, tbody.hide-for-xlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge-only {
     display: table-row-group !important;
   }
 
-  /* line 341, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 328, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tr.hide-for-small, tr.hide-for-small-only, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.show-for-large, tr.show-for-large-up, tr.show-for-large-only, tr.hide-for-xlarge, tr.hide-for-xlarge-up, tr.hide-for-xlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge-only {
     display: table-row !important;
   }
 
-  /* line 358, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 345, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   td.hide-for-small, td.hide-for-small-only, td.hide-for-medium, td.hide-for-medium-down, td.hide-for-medium-only, td.show-for-medium-up, td.show-for-large, td.show-for-large-up, td.show-for-large-only, td.hide-for-xlarge, td.hide-for-xlarge-up, td.hide-for-xlarge-only, td.hide-for-xxlarge-up, td.hide-for-xxlarge-only,
   th.hide-for-small,
   th.hide-for-small-only,
@@ -7054,7 +7047,7 @@ th.hide-for-xxlarge-up {
 }
 /* X-Large Displays: 1441 and up */
 @media only screen and (min-width: 90.063em) {
-  /* line 376, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 364, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small,
   .hide-for-small-only,
   .hide-for-medium,
@@ -7071,7 +7064,7 @@ th.hide-for-xxlarge-up {
     display: inherit !important;
   }
 
-  /* line 389, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 378, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .show-for-small-only,
   .show-for-medium,
   .show-for-medium-down,
@@ -7088,27 +7081,27 @@ th.hide-for-xxlarge-up {
   }
 
   /* Specific visibility for tables */
-  /* line 405, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 393, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   table.hide-for-small, table.hide-for-small-only, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-medium-only, table.show-for-medium-up, table.show-for-large-up, table.hide-for-large-only, table.show-for-xlarge, table.show-for-xlarge-up, table.show-for-xlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge-only {
     display: table;
   }
 
-  /* line 420, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 408, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   thead.hide-for-small, thead.hide-for-small-only, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.show-for-large-up, thead.hide-for-large-only, thead.show-for-xlarge, thead.show-for-xlarge-up, thead.show-for-xlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge-only {
     display: table-header-group !important;
   }
 
-  /* line 435, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 423, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tbody.hide-for-small, tbody.hide-for-small-only, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.show-for-large-up, tbody.hide-for-large-only, tbody.show-for-xlarge, tbody.show-for-xlarge-up, tbody.show-for-xlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge-only {
     display: table-row-group !important;
   }
 
-  /* line 450, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 438, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tr.hide-for-small, tr.hide-for-small-only, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.show-for-large-up, tr.hide-for-large-only, tr.show-for-xlarge, tr.show-for-xlarge-up, tr.show-for-xlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge-only {
     display: table-row !important;
   }
 
-  /* line 466, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 454, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   td.hide-for-small, td.hide-for-small-only, td.hide-for-medium, td.hide-for-medium-down, td.hide-for-medium-only, td.show-for-medium-up, td.show-for-large-up, td.hide-for-large-only, td.show-for-xlarge, td.show-for-xlarge-up, td.show-for-xlarge-only, td.hide-for-xxlarge-up, td.hide-for-xxlarge-only,
   th.hide-for-small,
   th.hide-for-small-only,
@@ -7128,7 +7121,7 @@ th.hide-for-xxlarge-up {
 }
 /* XX-Large Displays: 1920 and up */
 @media only screen and (min-width: 120.063em) {
-  /* line 483, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 472, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small,
   .hide-for-small-only,
   .hide-for-medium,
@@ -7144,7 +7137,7 @@ th.hide-for-xxlarge-up {
     display: inherit !important;
   }
 
-  /* line 495, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 485, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .show-for-small-only,
   .show-for-medium,
   .show-for-medium-down,
@@ -7160,27 +7153,27 @@ th.hide-for-xxlarge-up {
   }
 
   /* Specific visibility for tables */
-  /* line 509, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 499, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   table.hide-for-small, table.hide-for-small-only, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-medium-only, table.show-for-medium-up, table.show-for-large-up, table.hide-for-xlarge-only, table.show-for-xlarge-up, table.show-for-xxlarge-up, table.show-for-xxlarge-only {
     display: table;
   }
 
-  /* line 522, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 512, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   thead.hide-for-small, thead.hide-for-small-only, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.show-for-large-up, thead.hide-for-xlarge-only, thead.show-for-xlarge-up, thead.show-for-xxlarge-up, thead.show-for-xxlarge-only {
     display: table-header-group !important;
   }
 
-  /* line 535, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 525, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tbody.hide-for-small, tbody.hide-for-small-only, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.show-for-large-up, tbody.hide-for-xlarge-only, tbody.show-for-xlarge-up, tbody.show-for-xxlarge-up, tbody.show-for-xxlarge-only {
     display: table-row-group !important;
   }
 
-  /* line 548, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 538, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tr.hide-for-small, tr.hide-for-small-only, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.show-for-large-up, tr.hide-for-xlarge-only, tr.show-for-xlarge-up, tr.show-for-xxlarge-up, tr.show-for-xxlarge-only {
     display: table-row !important;
   }
 
-  /* line 562, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 552, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   td.hide-for-small, td.hide-for-small-only, td.hide-for-medium, td.hide-for-medium-down, td.hide-for-medium-only, td.show-for-medium-up, td.show-for-large-up, td.hide-for-xlarge-only, td.show-for-xlarge-up, td.show-for-xxlarge-up, td.show-for-xxlarge-only,
   th.hide-for-small,
   th.hide-for-small-only,
@@ -7197,40 +7190,40 @@ th.hide-for-xxlarge-up {
   }
 }
 /* Orientation targeting */
-/* line 569, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 568, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 .show-for-landscape,
 .hide-for-portrait {
   display: inherit !important;
 }
 
-/* line 571, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 570, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 .hide-for-landscape,
 .show-for-portrait {
   display: none !important;
 }
 
 /* Specific visibility for tables */
-/* line 576, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 575, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 table.hide-for-landscape, table.show-for-portrait {
   display: table;
 }
 
-/* line 580, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 579, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 thead.hide-for-landscape, thead.show-for-portrait {
   display: table-header-group !important;
 }
 
-/* line 584, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 583, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 tbody.hide-for-landscape, tbody.show-for-portrait {
   display: table-row-group !important;
 }
 
-/* line 588, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 587, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 tr.hide-for-landscape, tr.show-for-portrait {
   display: table-row !important;
 }
 
-/* line 593, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+/* line 592, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 td.hide-for-landscape, td.show-for-portrait,
 th.hide-for-landscape,
 th.show-for-portrait {
@@ -7238,40 +7231,40 @@ th.show-for-portrait {
 }
 
 @media only screen and (orientation: landscape) {
-  /* line 598, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 597, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .show-for-landscape,
   .hide-for-portrait {
     display: inherit !important;
   }
 
-  /* line 600, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 599, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-landscape,
   .show-for-portrait {
     display: none !important;
   }
 
   /* Specific visibility for tables */
-  /* line 605, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 604, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   table.show-for-landscape, table.hide-for-portrait {
     display: table;
   }
 
-  /* line 609, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 608, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   thead.show-for-landscape, thead.hide-for-portrait {
     display: table-header-group !important;
   }
 
-  /* line 613, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 612, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tbody.show-for-landscape, tbody.hide-for-portrait {
     display: table-row-group !important;
   }
 
-  /* line 617, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 616, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tr.show-for-landscape, tr.hide-for-portrait {
     display: table-row !important;
   }
 
-  /* line 622, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 621, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   td.show-for-landscape, td.hide-for-portrait,
   th.show-for-landscape,
   th.hide-for-portrait {
@@ -7279,40 +7272,40 @@ th.show-for-portrait {
   }
 }
 @media only screen and (orientation: portrait) {
-  /* line 628, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 627, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .show-for-portrait,
   .hide-for-landscape {
     display: inherit !important;
   }
 
-  /* line 630, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 629, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-portrait,
   .show-for-landscape {
     display: none !important;
   }
 
   /* Specific visibility for tables */
-  /* line 635, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 634, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   table.show-for-portrait, table.hide-for-landscape {
     display: table;
   }
 
-  /* line 639, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 638, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   thead.show-for-portrait, thead.hide-for-landscape {
     display: table-header-group !important;
   }
 
-  /* line 643, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 642, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tbody.show-for-portrait, tbody.hide-for-landscape {
     display: table-row-group !important;
   }
 
-  /* line 647, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 646, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   tr.show-for-portrait, tr.hide-for-landscape {
     display: table-row !important;
   }
 
-  /* line 652, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  /* line 651, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   td.show-for-portrait, td.hide-for-landscape,
   th.show-for-portrait,
   th.hide-for-landscape {
@@ -7412,6 +7405,46 @@ th.hide-for-touch {
 }
 
 /* line 10, ../scss/_custom.scss */
+.featured-image {
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+/* line 13, ../scss/_custom.scss */
+.featured-image img {
+  display: block;
+  width: 100%;
+}
+
+/* line 19, ../scss/_custom.scss */
+.page {
+  background: white;
+  color: #333;
+}
+/* line 23, ../scss/_custom.scss */
+.page h1, .page h2, .page h3, .page h4, .page h5, .page h6, .page p {
+  color: #333;
+}
+/* line 27, ../scss/_custom.scss */
+.page h1, .page h2, .page h3 {
+  font-weight: 400;
+}
+
+/* line 32, ../scss/_custom.scss */
+.small-margin-bottom {
+  margin-bottom: 20px;
+}
+
+/* line 36, ../scss/_custom.scss */
+.medium-margin-bottom {
+  margin-bottom: 40px;
+}
+
+/* line 40, ../scss/_custom.scss */
+.large-margin-bottom {
+  margin-bottom: 50px;
+}
+
+/* line 44, ../scss/_custom.scss */
 .slides {
   color: #D8D8D8;
   background-color: #000;
@@ -7419,184 +7452,223 @@ th.hide-for-touch {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 1195, ../scss/_settings.scss */
+/* line 1192, ../scss/_settings.scss */
 .slides p:last-child, .slides ul:last-child, .slides ol:last-child, .slides dl:last-child {
   margin: 0;
 }
-/* line 18, ../scss/_custom.scss */
+/* line 52, ../scss/_custom.scss */
 .slides p {
   padding: 10px;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 22, ../scss/_custom.scss */
+/* line 56, ../scss/_custom.scss */
 .slides p.no-pad {
   padding: 0;
   background: transparent;
 }
-/* line 28, ../scss/_custom.scss */
+/* line 62, ../scss/_custom.scss */
 .slides h1 {
   text-shadow: 0 1px 1px #333;
 }
-/* line 31, ../scss/_custom.scss */
-.slides h1.small-margin {
-  margin-bottom: 60px;
-}
-/* line 35, ../scss/_custom.scss */
-.slides h1.medium-margin {
-  margin-bottom: 100px;
-}
-/* line 39, ../scss/_custom.scss */
-.slides h1.large-margin {
-  margin-bottom: 150px;
-}
-/* line 44, ../scss/_custom.scss */
-.slides .row {
-  padding: 40px 0;
-}
-/* line 47, ../scss/_custom.scss */
-.slides .row.medium-pad {
-  padding: 50px 0;
-}
-/* line 51, ../scss/_custom.scss */
-.slides .row.large-pad {
-  padding: 60px 0;
-}
-/* line 56, ../scss/_custom.scss */
+/* line 66, ../scss/_custom.scss */
 .slides.light {
   background-color: #fff;
 }
 
-/* line 64, ../scss/_custom.scss */
+/* line 71, ../scss/_custom.scss */
+.slides .row, .page .row {
+  padding: 40px 0;
+}
+/* line 74, ../scss/_custom.scss */
+.slides .row.medium-pad, .page .row.medium-pad {
+  padding: 50px 0;
+}
+/* line 78, ../scss/_custom.scss */
+.slides .row.large-pad, .page .row.large-pad {
+  padding: 60px 0;
+}
+
+/* line 86, ../scss/_custom.scss */
 .slide-0 {
   background-color: #6D665E;
-  background-image: url(https://a16545fb495c8760fb33-4cec33efbe2744e99ba863e52edb2075.ssl.cf2.rackcdn.com/slide1.jpg);
+  background-image: url(../img/home-banner.jpg);
 }
-/* line 68, ../scss/_custom.scss */
+/* line 90, ../scss/_custom.scss */
 .slide-0 p {
   padding: 0;
 }
-/* line 72, ../scss/_custom.scss */
+/* line 94, ../scss/_custom.scss */
 .slide-0 blockquote {
   padding: 0;
   border-left: 0;
   font-size: 1.1rem;
 }
 
-/* line 79, ../scss/_custom.scss */
+/* line 101, ../scss/_custom.scss */
 .slide-1 {
   background-image: url(../img/slide-1.jpg);
 }
 
-/* line 83, ../scss/_custom.scss */
+/* line 105, ../scss/_custom.scss */
 .slide-2 {
   background-image: url(https://a16545fb495c8760fb33-4cec33efbe2744e99ba863e52edb2075.ssl.cf2.rackcdn.com/slide2.jpg);
 }
 
-/* line 87, ../scss/_custom.scss */
+/* line 109, ../scss/_custom.scss */
 .slide-3 {
   background-image: url(https://a16545fb495c8760fb33-4cec33efbe2744e99ba863e52edb2075.ssl.cf2.rackcdn.com/slide3.jpg);
 }
 
-/* line 91, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 .slide-4 {
   background-image: url(https://a16545fb495c8760fb33-4cec33efbe2744e99ba863e52edb2075.ssl.cf2.rackcdn.com/slide4.jpg);
 }
 
-/* line 95, ../scss/_custom.scss */
+/* line 117, ../scss/_custom.scss */
 .slide-5 {
   background-image: url(https://a16545fb495c8760fb33-4cec33efbe2744e99ba863e52edb2075.ssl.cf2.rackcdn.com/slide5.jpg);
 }
 
-/* line 99, ../scss/_custom.scss */
+/* line 121, ../scss/_custom.scss */
 .slide-1 {
   background-image: url(../img/slide-1.jpg);
 }
 
-/* line 103, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 .footer {
   background: #111;
   padding: 20px 0;
   color: #ccc;
 }
-/* line 1195, ../scss/_settings.scss */
+/* line 1192, ../scss/_settings.scss */
 .footer p:last-child, .footer ul:last-child, .footer ol:last-child, .footer dl:last-child {
   margin: 0;
+}
+/* line 131, ../scss/_custom.scss */
+.footer p {
+  font-size: 1.125rem;
+}
+/* line 135, ../scss/_custom.scss */
+.footer ul li {
+  font-size: 1.125rem;
 }
 
 /* Define mobile styles */
 @media only screen and (max-width: 40em) {
-  /* line 121, ../scss/_custom.scss */
+  /* line 149, ../scss/_custom.scss */
   .footer p, .footer ul li {
     text-align: center;
   }
-  /* line 125, ../scss/_custom.scss */
+  /* line 153, ../scss/_custom.scss */
   .footer ul {
     margin: 10px 0 0;
   }
-  /* line 129, ../scss/_custom.scss */
+  /* line 157, ../scss/_custom.scss */
   .footer li {
     margin-top: 10px;
   }
-  /* line 133, ../scss/_custom.scss */
+  /* line 161, ../scss/_custom.scss */
   .footer a {
     color: #ddd;
   }
-  /* line 135, ../scss/_custom.scss */
+  /* line 163, ../scss/_custom.scss */
   .footer a:hover {
     color: #ccc;
-  }
-
-  /* line 142, ../scss/_custom.scss */
-  .slides h1.small-margin {
-    margin-bottom: 20px;
-  }
-  /* line 146, ../scss/_custom.scss */
-  .slides h1.medium-margin {
-    margin-bottom: 40px;
-  }
-  /* line 150, ../scss/_custom.scss */
-  .slides h1.large-margin {
-    margin-bottom: 50px;
   }
 }
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 161, ../scss/_custom.scss */
-  .slides .row {
+  /* line 177, ../scss/_custom.scss */
+  .featured-image, .featured-text {
+    margin-left: -4rem;
+    margin-right: -4rem;
+  }
+
+  /* line 182, ../scss/_custom.scss */
+  .small-margin-bottom {
+    margin-bottom: 50px;
+  }
+
+  /* line 186, ../scss/_custom.scss */
+  .medium-margin-bottom {
+    margin-bottom: 90px;
+  }
+
+  /* line 190, ../scss/_custom.scss */
+  .large-margin-bottom {
+    margin-bottom: 110px;
+  }
+
+  /* line 194, ../scss/_custom.scss */
+  .slides .row, .page .row {
     padding: 60px 0;
   }
-  /* line 164, ../scss/_custom.scss */
-  .slides .row.medium-pad {
+  /* line 197, ../scss/_custom.scss */
+  .slides .row.small-pad, .page .row.small-pad {
     padding: 90px 0;
   }
-  /* line 168, ../scss/_custom.scss */
-  .slides .row.large-pad {
+  /* line 201, ../scss/_custom.scss */
+  .slides .row.medium-pad, .page .row.medium-pad {
     padding: 120px 0;
+  }
+  /* line 205, ../scss/_custom.scss */
+  .slides .row.large-pad, .page .row.large-pad {
+    padding: 200px 0;
   }
 }
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 64.063em) {
-  /* line 178, ../scss/_custom.scss */
+  /* line 214, ../scss/_custom.scss */
+  .featured-image, .featured-text {
+    margin-left: -6rem;
+    margin-right: -6rem;
+  }
+
+  /* line 219, ../scss/_custom.scss */
+  .small-margin-bottom {
+    margin-bottom: 60px;
+  }
+
+  /* line 223, ../scss/_custom.scss */
+  .medium-margin-bottom {
+    margin-bottom: 100px;
+  }
+
+  /* line 227, ../scss/_custom.scss */
+  .large-margin-bottom {
+    margin-bottom: 150px;
+  }
+
+  /* line 231, ../scss/_custom.scss */
   .slides {
     background-size: cover;
   }
-  /* line 180, ../scss/_custom.scss */
-  .slides .row {
-    padding: 90px 0;
-  }
-  /* line 183, ../scss/_custom.scss */
-  .slides .row.medium-pad {
-    padding: 120px 0;
-  }
-  /* line 187, ../scss/_custom.scss */
-  .slides .row.large-pad {
-    padding: 200px 0;
+  /* line 234, ../scss/_custom.scss */
+  .slides p {
+    padding: 15px;
   }
 
-  /* line 194, ../scss/_custom.scss */
+  /* line 239, ../scss/_custom.scss */
+  .slides .row, .page .row {
+    padding: 70px 0;
+  }
+  /* line 242, ../scss/_custom.scss */
+  .slides .row.small-pad, .page .row.small-pad {
+    padding: 120px 0;
+  }
+  /* line 246, ../scss/_custom.scss */
+  .slides .row.medium-pad, .page .row.medium-pad {
+    padding: 220px 0;
+  }
+  /* line 250, ../scss/_custom.scss */
+  .slides .row.large-pad, .page .row.large-pad {
+    padding: 350px 0;
+  }
+
+  /* line 256, ../scss/_custom.scss */
   .slide-0 .row {
-    background-image: url(https://a16545fb495c8760fb33-4cec33efbe2744e99ba863e52edb2075.ssl.cf2.rackcdn.com/jerry.png);
+    background-image: url(../img/jerry-bw.png);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
