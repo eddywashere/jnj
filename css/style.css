@@ -3326,7 +3326,7 @@ form .row textarea.columns {
 /* Label Styles */
 /* line 307, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 label {
-  font-size: 0.875rem;
+  font-size: 1.375rem;
   color: #4d4d4d;
   cursor: pointer;
   display: block;
@@ -3358,7 +3358,7 @@ select {
   background-position-y: center;
   border: 1px solid #cccccc;
   padding: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1.375rem;
   -webkit-border-radius: 0;
   border-radius: 0;
 }
@@ -3405,9 +3405,9 @@ select::-ms-expand {
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
-  font-size: 0.875rem;
-  height: 2.3125rem;
-  line-height: 2.3125rem;
+  font-size: 1.375rem;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
 }
 
 /* Adjust padding, alignment and radius if pre/post element is a button */
@@ -3584,10 +3584,10 @@ textarea {
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.75);
   display: block;
-  font-size: 0.875rem;
+  font-size: 1.375rem;
   margin: 0 0 1rem 0;
   padding: 0.5rem;
-  height: 2.3125rem;
+  height: 2.8125rem;
   width: 100%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3656,7 +3656,7 @@ textarea[disabled] {
 /* Add height value for select elements to match text input height */
 /* line 413, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 select {
-  height: 2.3125rem;
+  height: 2.8125rem;
 }
 
 /* Adjust margin for form elements below */
