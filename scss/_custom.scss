@@ -89,7 +89,7 @@ strong {
 // Intro Section
 .slide-0 {
   background-color: #6D665E;
-  background-image: url(../img/home-banner.jpg);
+  background-image: url(../img/slide-jerry-wall.jpg);
 
   p {
     padding: 0;
@@ -147,7 +147,7 @@ strong {
 }
 
 .slide-last {
-  background-image: url(../img/slide-jerry-wall.jpg);
+  background-image: url(../img/home-banner.jpg);
 }
 
 .footer {
@@ -284,7 +284,7 @@ strong {
     }
   }
 
-  .slide-0 {
+  .slide-last {
     .row {
       background-image: url(../img/jerry-bw.png);
       background-size: contain;

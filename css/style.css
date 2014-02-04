@@ -7496,7 +7496,7 @@ strong {
 /* line 90, ../scss/_custom.scss */
 .slide-0 {
   background-color: #6D665E;
-  background-image: url(../img/home-banner.jpg);
+  background-image: url(../img/slide-jerry-wall.jpg);
 }
 /* line 94, ../scss/_custom.scss */
 .slide-0 p {
@@ -7566,7 +7566,7 @@ strong {
 
 /* line 149, ../scss/_custom.scss */
 .slide-last {
-  background-image: url(../img/slide-jerry-wall.jpg);
+  background-image: url(../img/home-banner.jpg);
 }
 
 /* line 153, ../scss/_custom.scss */
@@ -7708,7 +7708,7 @@ strong {
   }
 
   /* line 288, ../scss/_custom.scss */
-  .slide-0 .row {
+  .slide-last .row {
     background-image: url(../img/jerry-bw.png);
     background-size: contain;
     background-position: right;
