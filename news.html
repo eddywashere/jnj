@@ -7,11 +7,11 @@ title: First Page
   <div class="row">
     <div class="small-12 medium-9 small-centered large-8 columns">
       <h1 class="text-center featured-text small-margin-bottom">News and Updates</h1>
-      <p>Victories driven by the public will necessarily take time, but you can stay up to date with Jerry's case by subscribing to our mailing list.</p>
+      <p>Our ultimate goal is to exonerate Jerry Gillespie and get him back home-- we would love to share this experience with each of you. Stay up to date with Jerry's case by subscribing to our mailing list.</p>
       <p class="inline-block"><a href="#" class="large button alert">Sign The Petition</a></p>
       <!-- Begin MailChimp Signup Form -->
       <div id="mc_embed_signup">
-      <form action="http://jerryneedsjustice.us3.list-manage.com/subscribe/post?u=67e9fd9a0be18f4b4294d3fd7&amp;id=79e9803ee6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <form action="http://eddywashere.us2.list-manage2.com/subscribe/post?u=9af63374758ff64e5223bd306&amp;id=5d531822ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <h2>Subscribe to our mailing list</h2>
       <div class="mc-field-group">
         <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -27,10 +27,10 @@ title: First Page
         <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
       </div>
         <p id="mce-responses" class="clear">
-          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response alert-box-error" id="mce-error-response" style="display:none"></div>
           <div class="response" id="mce-success-response" style="display:none"></div>
         </p>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_67e9fd9a0be18f4b4294d3fd7_79e9803ee6" value=""></div>
+          <div style="position: absolute; left: -5000px;"><input type="text" name="b_9af63374758ff64e5223bd306_5d531822ff" value=""></div>
         <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
       </form>
       </div>
@@ -99,7 +99,7 @@ title: First Page
             var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
             var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
             $("#mc-embedded-subscribe-form").unbind('submit');//remove the validator so we can get into beforeSubmit on the ajaxform, which then calls the validator
-            options = { url: 'http://jerryneedsjustice.us3.list-manage.com/subscribe/post-json?u=67e9fd9a0be18f4b4294d3fd7&id=79e9803ee6&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+            options = { url: 'http://eddywashere.us2.list-manage1.com/subscribe/post-json?u=9af63374758ff64e5223bd306&id=5d531822ff&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
                           beforeSubmit: function(){
                               $('#mce_tmp_error_msg').remove();
                               $('.datefield','#mc_embed_signup').each(
@@ -195,7 +195,7 @@ title: First Page
                       $('#mce-'+resp.result+'-response').html(msg);
                   } else {
                       err_id = 'mce_tmp_error_msg';
-                      html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
+                      html = '<div id="'+err_id+'" class="alert-box error"> '+msg+'</div>';
 
                       var input_id = '#mc_embed_signup';
                       var f = $(input_id);
