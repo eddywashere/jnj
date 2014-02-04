@@ -7560,11 +7560,16 @@ strong {
 }
 
 /* line 145, ../scss/_custom.scss */
+.slide-10 {
+  background-image: url(../img/slide-10.jpg);
+}
+
+/* line 149, ../scss/_custom.scss */
 .slide-last {
   background-image: url(../img/slide-jerry-wall.jpg);
 }
 
-/* line 149, ../scss/_custom.scss */
+/* line 153, ../scss/_custom.scss */
 .footer {
   background: #111;
   padding: 20px 0;
@@ -7574,135 +7579,135 @@ strong {
 .footer p:last-child, .footer ul:last-child, .footer ol:last-child, .footer dl:last-child {
   margin: 0;
 }
-/* line 155, ../scss/_custom.scss */
+/* line 159, ../scss/_custom.scss */
 .footer p {
   font-size: 1.125rem;
 }
-/* line 159, ../scss/_custom.scss */
+/* line 163, ../scss/_custom.scss */
 .footer ul li {
   font-size: 1.125rem;
 }
 
 /* Define mobile styles */
 @media only screen and (max-width: 40em) {
-  /* line 173, ../scss/_custom.scss */
+  /* line 177, ../scss/_custom.scss */
   .footer p, .footer ul li {
     text-align: center;
   }
-  /* line 177, ../scss/_custom.scss */
+  /* line 181, ../scss/_custom.scss */
   .footer ul {
     margin: 10px 0 0;
   }
-  /* line 181, ../scss/_custom.scss */
+  /* line 185, ../scss/_custom.scss */
   .footer li {
     margin-top: 10px;
   }
-  /* line 185, ../scss/_custom.scss */
+  /* line 189, ../scss/_custom.scss */
   .footer a {
     color: #ddd;
   }
-  /* line 187, ../scss/_custom.scss */
+  /* line 191, ../scss/_custom.scss */
   .footer a:hover {
     color: #ccc;
   }
 }
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (min-width: 40.063em) {
-  /* line 198, ../scss/_custom.scss */
+  /* line 202, ../scss/_custom.scss */
   p, h1, h2, h3, h5, h6 {
     margin-bottom: 2.25rem;
   }
 }
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 205, ../scss/_custom.scss */
+  /* line 209, ../scss/_custom.scss */
   .featured-image, .featured-text {
     margin-left: -4rem;
     margin-right: -4rem;
   }
 
-  /* line 210, ../scss/_custom.scss */
+  /* line 214, ../scss/_custom.scss */
   .small-margin-bottom {
     margin-bottom: 50px;
   }
 
-  /* line 214, ../scss/_custom.scss */
+  /* line 218, ../scss/_custom.scss */
   .medium-margin-bottom {
     margin-bottom: 90px;
   }
 
-  /* line 218, ../scss/_custom.scss */
+  /* line 222, ../scss/_custom.scss */
   .large-margin-bottom {
     margin-bottom: 110px;
   }
 
-  /* line 222, ../scss/_custom.scss */
+  /* line 226, ../scss/_custom.scss */
   .slides .row, .page .row {
     padding: 60px 0;
   }
-  /* line 225, ../scss/_custom.scss */
+  /* line 229, ../scss/_custom.scss */
   .slides .row.small-pad, .page .row.small-pad {
     padding: 90px 0;
   }
-  /* line 229, ../scss/_custom.scss */
+  /* line 233, ../scss/_custom.scss */
   .slides .row.medium-pad, .page .row.medium-pad {
     padding: 120px 0;
   }
-  /* line 233, ../scss/_custom.scss */
+  /* line 237, ../scss/_custom.scss */
   .slides .row.large-pad, .page .row.large-pad {
     padding: 200px 0;
   }
 }
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 64.063em) {
-  /* line 242, ../scss/_custom.scss */
+  /* line 246, ../scss/_custom.scss */
   .featured-image, .featured-text {
     margin-left: -6rem;
     margin-right: -6rem;
   }
 
-  /* line 247, ../scss/_custom.scss */
+  /* line 251, ../scss/_custom.scss */
   .small-margin-bottom {
     margin-bottom: 60px;
   }
 
-  /* line 251, ../scss/_custom.scss */
+  /* line 255, ../scss/_custom.scss */
   .medium-margin-bottom {
     margin-bottom: 100px;
   }
 
-  /* line 255, ../scss/_custom.scss */
+  /* line 259, ../scss/_custom.scss */
   .large-margin-bottom {
     margin-bottom: 150px;
   }
 
-  /* line 259, ../scss/_custom.scss */
+  /* line 263, ../scss/_custom.scss */
   .slides {
     background-size: cover;
   }
-  /* line 262, ../scss/_custom.scss */
+  /* line 266, ../scss/_custom.scss */
   .slides p {
     padding: 15px;
   }
 
-  /* line 267, ../scss/_custom.scss */
+  /* line 271, ../scss/_custom.scss */
   .slides .row, .page .row {
     padding: 70px 0;
   }
-  /* line 270, ../scss/_custom.scss */
+  /* line 274, ../scss/_custom.scss */
   .slides .row.small-pad, .page .row.small-pad {
     padding: 120px 0;
   }
-  /* line 274, ../scss/_custom.scss */
+  /* line 278, ../scss/_custom.scss */
   .slides .row.medium-pad, .page .row.medium-pad {
     padding: 220px 0;
   }
-  /* line 278, ../scss/_custom.scss */
+  /* line 282, ../scss/_custom.scss */
   .slides .row.large-pad, .page .row.large-pad {
     padding: 350px 0;
   }
 
-  /* line 284, ../scss/_custom.scss */
+  /* line 288, ../scss/_custom.scss */
   .slide-0 .row {
     background-image: url(../img/jerry-bw.png);
     background-size: contain;
