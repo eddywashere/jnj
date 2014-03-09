@@ -6,6 +6,9 @@ module.exports = function(grunt) {
     compass: {
       all: {
         config: 'config.rb'
+      },
+      options: {
+        bundleExec: true
       }
     },
     connect: {
