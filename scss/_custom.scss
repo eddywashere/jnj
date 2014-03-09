@@ -33,6 +33,10 @@ strong {
 .social-share-group {
   display: inline-block;
   padding: 20px 0;
+
+  .fb-share-button {
+    display: inline !important;
+  }
 }
 
 .page {
