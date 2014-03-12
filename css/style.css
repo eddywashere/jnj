@@ -9493,51 +9493,51 @@ strong {
   margin: 0;
 }
 /* line 75, ../scss/_custom.scss */
-.slides p {
+.slides blockquote {
+  padding: 10px;
+  border-left: 0;
+  font-size: 1.1rem;
+}
+/* line 81, ../scss/_custom.scss */
+.slides p, .slides .highlighted {
   padding: 10px;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 79, ../scss/_custom.scss */
-.slides p.no-pad {
+/* line 85, ../scss/_custom.scss */
+.slides p.no-pad, .slides .highlighted.no-pad {
   padding: 0;
   background: transparent;
 }
-/* line 85, ../scss/_custom.scss */
+/* line 91, ../scss/_custom.scss */
 .slides h1 {
   text-shadow: 0 1px 1px #333;
 }
-/* line 89, ../scss/_custom.scss */
+/* line 95, ../scss/_custom.scss */
 .slides.light {
   background-color: #fff;
 }
 
-/* line 94, ../scss/_custom.scss */
+/* line 100, ../scss/_custom.scss */
 .slides .row, .page .row {
   padding: 40px 0;
 }
-/* line 97, ../scss/_custom.scss */
+/* line 103, ../scss/_custom.scss */
 .slides .row.medium-pad, .page .row.medium-pad {
   padding: 50px 0;
 }
-/* line 101, ../scss/_custom.scss */
+/* line 107, ../scss/_custom.scss */
 .slides .row.large-pad, .page .row.large-pad {
   padding: 60px 0;
 }
 
-/* line 109, ../scss/_custom.scss */
+/* line 115, ../scss/_custom.scss */
 .slide-0 {
   background-color: #6D665E;
   background-image: url(../img/slide-jerry-wall.jpg);
 }
-/* line 113, ../scss/_custom.scss */
+/* line 119, ../scss/_custom.scss */
 .slide-0 p {
   padding: 0;
-}
-/* line 117, ../scss/_custom.scss */
-.slide-0 blockquote {
-  padding: 0;
-  border-left: 0;
-  font-size: 1.1rem;
 }
 
 /* line 124, ../scss/_custom.scss */
@@ -9712,7 +9712,7 @@ strong {
     background-size: cover;
   }
   /* line 285, ../scss/_custom.scss */
-  .slides p {
+  .slides p, .slides blockquote {
     padding: 15px;
   }
 

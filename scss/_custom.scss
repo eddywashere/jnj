@@ -72,7 +72,13 @@ strong {
   background-position: center center;
   @include last-child;
 
-  p {
+  blockquote {
+    padding: 10px;
+    border-left: 0;
+    font-size: 1.1rem;
+  }
+
+  p, .highlighted {
     padding: 10px;
     background: rgba(0, 0, 0, 0.5);
 
@@ -112,12 +118,6 @@ strong {
 
   p {
     padding: 0;
-  }
-
-  blockquote {
-    padding: 0;
-    border-left: 0;
-    font-size: 1.1rem;
   }
 }
 
@@ -282,7 +282,7 @@ strong {
   .slides {
     background-size: cover;
 
-    p {
+    p, blockquote {
       padding: 15px;
     }
   }
